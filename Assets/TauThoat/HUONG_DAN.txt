@@ -1,0 +1,16 @@
+TẨU THOÁT TURBO - bản Unity
+
+Cách cài:
+1. Chép cả thư mục "TauThoat" vào thư mục Assets của dự án Game_DuaXe
+   (Desktop/Game_DuaXe/Assets/TauThoat).
+2. Quay lại Unity, đợi biên dịch xong (góc phải dưới hết vòng xoay).
+3. Mở scene bất kỳ (ví dụ SampleScene) và bấm Play.
+   Game tự tạo thành phố, xe, cảnh sát, menu - không cần kéo thả gì.
+
+Điều khiển: ← / A rẽ trái, → / D rẽ phải, giữ cả hai hoặc Space để phanh trượt.
+Chuột/cảm ứng: giữ nửa trái / nửa phải màn hình. P hoặc Esc: tạm dừng.
+
+Files:
+- Scripts/TTCore.cs : dữ liệu xe, bản đồ, vật liệu, dựng mô hình xe, sinh thành phố, âm thanh
+- Scripts/TTCar.cs  : vật lý xe (tự chạy ga, drift, va chạm)
+- Scripts/TTGame.cs : luật chơi 3 chế độ, AI cảnh sát, vật phẩm, camera, giao diện
